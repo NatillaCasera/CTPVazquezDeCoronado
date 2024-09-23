@@ -14,18 +14,19 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="112dp"
-        android:layout_height="55dp"
+        android:layout_width="303dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Bienvenido"
-        android:fontFamily="cursive"
+        android:textSize="30"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="7dp" />
+        tools:layout_editor_absoluteY="4dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="380dp"
-        android:layout_height="76dp"
+        android:layout_width="379dp"
+        android:layout_height="101dp"
         android:text="El Colegio Técnico Profesional Vázquez de Coronado es una institución educativa con una amplia oferta educativa para toda la comunidad"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="62dp" />
+        tools:layout_editor_absoluteY="87dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
