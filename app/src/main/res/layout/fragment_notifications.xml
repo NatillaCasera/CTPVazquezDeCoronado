@@ -29,8 +29,12 @@
         android:fontFamily="sans-serif-black"
         android:text="Correo: ctpvazquezdecoronado@gmail.com"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="43dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/textView4"
@@ -43,8 +47,12 @@
                         2529-0692
                         2529-3398"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -52,11 +60,5 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="-15dp" />
-
-    <androidx.constraintlayout.helper.widget.Flow
-        android:id="@+id/flow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
