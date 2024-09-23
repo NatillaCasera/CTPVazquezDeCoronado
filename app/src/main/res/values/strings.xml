@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CTP VC</string>
     <string name="title_home">Inicio</string>
-    <string name="title_dashboard">Especialidadess</string>
+    <string name="title_dashboard">Especialidades</string>
     <string name="title_notifications">Contáctanos</string>
 
 </resources>
