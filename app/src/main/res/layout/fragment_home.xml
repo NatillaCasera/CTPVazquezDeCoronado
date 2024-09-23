@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="303dp"
-        android:layout_height="56dp"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Bienvenido"
         android:textSize="30sp"
@@ -18,18 +18,31 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="379dp"
         android:layout_height="101dp"
+        android:fontFamily="sans-serif-medium"
         android:text="El Colegio Técnico Profesional Vázquez de Coronado es una institución educativa con una amplia oferta educativa para toda la comunidad"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233" />
+        app:layout_constraintVertical_bias="0.593" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="224dp"
+        android:src="@drawable/ctp_exterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
