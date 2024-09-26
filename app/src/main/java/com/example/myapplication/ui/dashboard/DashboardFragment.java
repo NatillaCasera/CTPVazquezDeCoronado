@@ -38,6 +38,24 @@ public class DashboardFragment extends Fragment {
                 }
             }
         });
+
+        final Button button1 = binding.button;
+        final TextView textView1 = binding.textView6;
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (textView1.getVisibility() == View.GONE){
+                    textView1.setVisibility(View.VISIBLE);
+                } else {
+                    textView1.setVisibility(View.GONE);
+                }
+            }
+        });
+
+
+
+
         return root;
 
     }

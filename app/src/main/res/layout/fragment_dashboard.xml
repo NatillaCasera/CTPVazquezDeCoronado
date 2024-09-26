@@ -30,8 +30,32 @@
          Se basa en conocimientos de economía, matemáticas, administración, contabilidad y mercadeo.
          Estos dan soporte científico para realizar acciones como reportes financieros, ejecución y análisis presupuestario, manejo de recursos, auditorias."
         android:textColor="@color/black"
+        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         tools:layout_editor_absoluteX="15dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contabilidad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La especialidad de contabilidad crea expertos en el manejo y dirección de procesos económicos en los que se involucra el ser humano así los profesionales en esta diciplina tienen bajo su control oficios,
+        tratados y planeamientos relacionados con las finanzas de las entidades, empresas y personas que soliciten el servicio."
+        android:textColor="@color/black"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="13dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
