@@ -45,7 +45,7 @@
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="348dp"
-                android:layout_height="332dp"
+                android:layout_height="428dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-medium"
                 android:text="El Colegio Técnico Profesional Vázquez de Coronado es una institución educativa con una amplia oferta educativa para toda la comunidad El Colegio Técnico Vázquez de Coronado fue fundado en el 2009, brindando una oportunidad educativa a toda la comunidad, con especialidades técnicas tales como: Administración y Operación Aduanera, Banca y Finanzas, Contabilidad, Ejecutivo para Centros de Servicios, Diseño Publicitario, Secretariado, Productividad y Calidad."
