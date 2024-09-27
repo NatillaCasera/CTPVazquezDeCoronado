@@ -1,61 +1,185 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_home_app"
+    android:background="@drawable/fondo_claro_ctp"
     tools:context=".ui.dashboard.DashboardFragment"
     tools:ignore="MissingConstraints">
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Banca y finanzas"
+        android:backgroundTint="@color/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="389dp"
+        android:layout_height="122dp"
+        android:text="La especialidad de Banca y Finanzas se encarga de la administración gerencial y financiera de una institución, banco o empresa.
+         Se basa en conocimientos de economía, matemáticas, administración, contabilidad y mercadeo.
+         Estos dan soporte científico para realizar acciones como reportes financieros, ejecución y análisis presupuestario, manejo de recursos, auditorias."
+        android:textColor="@color/black"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        tools:layout_editor_absoluteX="11dp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="508dp"
+        android:text="Contabilidad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="351dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="4dp"
+        android:text="La especialidad de contabilidad crea expertos en el manejo y dirección de procesos económicos en los que se involucra el ser humano así los profesionales en esta diciplina tienen bajo su control oficios,
+        tratados y planeamientos relacionados con las finanzas de las entidades, empresas y personas que soliciten el servicio."
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:layout_editor_absoluteX="16dp" />
 
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Banca y finanzas "
+        android:layout_marginBottom="324dp"
+        android:text="Diseño publicitario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.012" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="389dp"
-        android:layout_height="122dp"
-        android:layout_marginTop="4dp"
-        android:text="La especialidad de Banca y Finanzas se encarga de la administración gerencial y financiera de una institución, banco o empresa.
-         Se basa en conocimientos de economía, matemáticas, administración, contabilidad y mercadeo.
-         Estos dan soporte científico para realizar acciones como reportes financieros, ejecución y análisis presupuestario, manejo de recursos, auditorias."
-        android:textColor="@color/black"
+        android:id="@+id/textView7"
+        android:layout_width="393dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="8dp"
+        android:text="Carrera orientada a la creación y procesamiento de imágenes con fines comerciales o profesionales, pretende lograr un equilibrio visual, gráfico y publicitario en necesidades personales o empresariales. Busca comunicar de manera clara y directa un mensaje creado hacia cierto público específico.
+        El profesional en esta rama es capaz de aportar soluciones creativas, de una manera personalizada, mediante herramientas de carácter visual digitales publicitarias y otros recursos tecnológicos."
         android:visibility="gone"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        tools:layout_editor_absoluteX="15dp" />
+        tools:layout_editor_absoluteX="6dp" />
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contabilidad"
+        android:layout_marginBottom="380dp"
+        android:text="Ejecutivo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView8"
+        android:layout_width="398dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="8dp"
+        android:text="El programa de estudio EJECUTIVO (A) PARA CENTROS DE SERVICIOS, busca que los estudiantes se desempeñen satisfactoriamente en empresas públicas y privadas brindando un excelente servicio al cliente interno y externo en Inglés y Español. El ejecutivo (a) para Centros de Servicios, desarrollará un alto nivel en el manejo de otro idioma, como lo es el dominio del Inglés, (ejecutivo bilingüe) hablando y traduc- iendo simultáneamente, que le permitirá laborar eficientemente en empresas, instituciones u organizaciones nacionales e internacionales."
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <Button
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="La especialidad de contabilidad crea expertos en el manejo y dirección de procesos económicos en los que se involucra el ser humano así los profesionales en esta diciplina tienen bajo su control oficios,
-        tratados y planeamientos relacionados con las finanzas de las entidades, empresas y personas que soliciten el servicio."
+        android:layout_marginBottom="308dp"
+        android:text="Desarrollo de software"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="392dp"
+        android:layout_height="120dp"
+        android:text="Para el Técnico en el Nivel Medio en Desarrollo de Software es de gran importancia dominar todos los paradigmas posibles, tanto como el desarrollo de habilidades y destrezas para el uso de diferentes lenguajes de programación.
+        En este contexto, la programación en diferentes ambientes de trabajo es fundamental para el mejoramiento de su desempeño en el campo laboral."
         android:textColor="@color/black"
         android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="13dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:layout_editor_absoluteX="16dp" />
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="272dp"
+        android:text="Productividad y calidad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="389dp"
+        android:layout_height="146dp"
+        android:text="Esta especialidad prepara técnicos en el nivel medio que pueden desempeñar labores en las empresas, que propongan soluciones en el cumplimiento de la normativa de calidad, organizando actividades relativas a la mejora de los procesos en todas las áreas tales como: estudio de la calidad, estudios del desperdicio, análisis de proceso, implementación de herramientas administrativas y de control de calidad, servicio al cliente y trabajo en equipo entre otros."
+        android:textColor="@color/black"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:text="Secretariado ejecutivo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="353dp"
+        android:layout_height="106dp"
+        android:text="Esta especialidad, tiene por objetivo general la formación de técnicos a nivel medio en el campo de Secretariado Ejecutivo, capaces de hacer frente a los desafíos de la oficina moderna atendiendo los procesos de automatización y reestructuración organización."
+        android:textColor="@color/black"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        tools:layout_editor_absoluteX="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
