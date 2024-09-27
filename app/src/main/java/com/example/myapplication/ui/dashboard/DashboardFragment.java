@@ -66,6 +66,7 @@ public class DashboardFragment extends Fragment {
                 }
             }
         });
+
         final Button button3 = binding.button3;
         final TextView textView3 = binding.textView8;
 
@@ -79,6 +80,7 @@ public class DashboardFragment extends Fragment {
                 }
             }
         });
+
         final Button button4 = binding.button4;
         final TextView textView4 = binding.textView9;
 
@@ -92,6 +94,7 @@ public class DashboardFragment extends Fragment {
                 }
             }
         });
+
         final Button button5 = binding.button5;
         final TextView textView5 = binding.textView10;
 
@@ -119,8 +122,6 @@ public class DashboardFragment extends Fragment {
                 }
             }
         });
-
-
 
         return root;
 
